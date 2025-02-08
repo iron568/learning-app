@@ -17,6 +17,13 @@ export function InfoObjArray() {
           genres: ["Science Fiction", "Dystopian"],
           location: { shelf: "A1", row: 3 },
         },
+        {
+          title: "asdf",
+          author: "Aeeew",
+          availableCopies: 2,
+          genres: ["Science Fiction", "Dystopian"],
+          location: { shelf: "A1", row: 3 },
+        },
       ],
     },
     {
@@ -28,13 +35,6 @@ export function InfoObjArray() {
           availableCopies: 5,
           genres: ["History", "Anthropology"],
           location: { shelf: "B2", row: 1 },
-        },
-        {
-          title: "Educated",
-          author: "Tara Westover",
-          availableCopies: 3,
-          genres: ["Memoir", "Inspirational"],
-          location: { shelf: "B2", row: 2 },
         },
       ],
     },
