@@ -1,0 +1,28 @@
+#object {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#id {
+    color: rgb(223, 122, 27);
+}
+
+#type {
+    text-decoration: underline solid brown 5px;
+    color: brown;
+}
+
+
+.user-info-0 {
+    color: rgb(8, 8, 219);
+}
+
+.user-info-1 {
+    color: red;
+}
+
+.book-item {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
