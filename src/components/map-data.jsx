@@ -3,7 +3,7 @@ export function MapLearn() {
 
   return (
     <div className="map-learn">
-      <div className="map-learn-heading">Numbers:</div>
+      <div className="map-learn-heading">Numbers List:</div>
       <div className="map-learn-list">
         {number.map(function (item) {
           return <div key={item}>{item}</div>;
@@ -20,7 +20,7 @@ export function MapLearnObjects() {
       age: 27,
     },
     {
-      name: "Ritesh",
+      name: "Chetan",
       age: 22,
     },
   ];
