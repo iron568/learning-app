@@ -27,7 +27,7 @@ export function InfoObjArray() {
       ],
     },
     {
-      section: "Education",
+      section: "Non-Fiction",
       books: [
         {
           title: "Sapiens: A Brief History of Humankind",
