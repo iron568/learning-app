@@ -3,12 +3,12 @@ export function MapLearn() {
 
   return (
     <div className="map-learn">
-      <div className="map-learn-heading">Numbers List:</div>
+      {/* <div className="map-learn-heading">Numbers List:</div>
       <div className="map-learn-list">
         {number.map(function (item) {
           return <div key={item}>{item}</div>;
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -25,21 +25,21 @@ export function MapLearnObjects() {
     },
   ];
 
-  return (
-    <div className="map-learn">
-      <div className="map-learn-heading">Objects:</div>
-      <div className="map-learn-list">
-        {objects.map(function (item) {
-          return (
-            <div key={item}>
-              <div>Name: {item.name}</div>
-              <div>Age: {item.age}</div>
-              <hr />
-              <br></br>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+  // return (
+  //   <div className="map-learn">
+  //     <div className="map-learn-heading">Objects:</div>
+  //     <div className="map-learn-list">
+  //       {objects.map(function (item) {
+  //         return (
+  //           <div key={item}>
+  //             {/* <div>Name: {item.name}</div>
+  //             <div>Age: {item.age}</div> */}
+  //             <hr />
+  //             <br></br>
+  //           </div>
+  //         );
+  //       })}
+  //     </div>
+  //   </div>
+  // );
 }
