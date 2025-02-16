@@ -26,3 +26,77 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
+.login-page-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.login-page-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.email-container {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.password-container {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    min-width: 100px;
+    margin-bottom: 100px;
+}
+
+.Horizontal-form {
+    max-width: 550px;
+    margin: 0 auto;
+    border-style: outset;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+
+.sing-in {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: red;
+}
+
+.button-tag {
+    padding-top: 20px;
+
+}
+
+.register-form {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    /* margin-bottom: 40px; */
+
+}
+
+.stundent-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    border-style: outset;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
