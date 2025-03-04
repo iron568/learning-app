@@ -6,6 +6,7 @@ import { cities } from "../lib/cites";
 import { state } from "../lib/state";
 import { uniq } from "lodash";
 import { hobbies } from "../lib/hobbies";
+import { Link } from "react-router";
 
 export function StudentRegistration() {
   let uniqStates = uniq(state);
@@ -78,9 +79,13 @@ export function StudentRegistration() {
           );
         })}
       </Form.Select>
-      <Button variant="primary" style={{ width: "100%" }}>
-        Block level button
+      <Button variant="primary" style={{ width: "100%", marginTop: "20px" }}>
+        Registration
       </Button>
+
+      <div className="text-center mt-3">
+        <Link to="/login">Login to Your Account</Link>
+      </div>
     </div>
   );
 }
